@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ticket Booking</title>
+<link rel="stylesheet" href="../CSS/ski_stuely.css">
+</head>
+<body>
+<nav>
+  <h2 class="logo">City Mall</h2>
+
+  <ul>
+    <li><button id= "home_bt"class="theme-toggle">Change Mode</button></li>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="stores.html">stores</a></li>
+    <li><a href="Foodcourt.html">foodcourt</a></li>
+    <li><a href="cinema.html">cinema</a></li>
+    <li><a href="games.html">games</a></li>
+    <li><a href="ski.html">ski egypt</a></li>
+    <li><a href="contact.html">contact us</a></li>
+  </ul>
+</nav>
+<h1>Ticket Booking Form</h1>
+
+<form class="form_box">
+
+<label>Name:</label><br>
+<input type="text" placeholder="Enter your name"><br><br>
+
+<label>Email:</label><br>
+<input type="email" placeholder="Enter your email"><br><br>
+
+
+    <div class="tickets">
+
+        <input type="radio" name="ticket" id="standard">
+    <label for="standard">
+<img src="../IMG/ticket_1 _no_background.png" alt="standard">
+    </label>
+
+        <input type="radio" name="ticket" id="vip">
+    <label for="vip">
+<img src="../IMG/ticket_2_no_background.png" alt="vip">
+    </label>
+
+        <input type="radio" name="ticket" id="premium">
+    <label for="premium">
+<img src="../IMG/ticket_3_no_background.png" alt="premium">
+    </label>
+
+</div>
+<label>Number of Tickets:</label><br>
+<input type="number"><br><br>
+
+<label>Event Date:</label><br>
+<input type="date"><br><br>
+
+
+<input type="submit" value="Book Now">
+<input type="reset" value="Cancel">
+
+</form>
+
+</body>
+</html>

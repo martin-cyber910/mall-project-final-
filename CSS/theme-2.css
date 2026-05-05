@@ -1,0 +1,197 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+
+#bg-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.content{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* العنوان */
+h2 {
+    margin-top: 100PX;
+    margin-left: 300px;
+    FONT-SIZE: 50PX;
+    position: absolute;
+    top: 30px;
+    color: #F1B76D;
+}
+
+/* بوكس Login + Signup */
+.login-box,
+.signup-box {
+    margin-top: 10px;
+    width: 850px;
+    height: 750px;
+    margin-left: -10px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+/* Inputs */
+.input-box {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 15px; 
+}
+.input-box:first-of-type
+{
+    margin-top: 250px;}
+
+
+label {
+    font-size: 14px;
+    color: #000000;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* input + select */
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    background: #2a2d45;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Focus Effect */
+input:focus,
+select:focus {
+    border-color: #F1B76D;
+    box-shadow: 0 0 10px rgba(241, 183, 109, 0.5);
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #aaa;
+}
+
+/* زرار */
+.btn {
+    width: 50%;
+    margin: 0 195px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #F1B76D;
+    color: #373B56;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover */
+.btn:hover {
+    background: #ffcc8a;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.link {
+    color: #F1B76D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Messages */
+.form-message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+}
+
+/* Success */
+.form-message.success {
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    background: rgba(0, 255, 150, 0.1);
+    color: #00ff95;
+}
+
+/* Error */
+.form-message.error {
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    background: rgba(255, 0, 0, 0.1);
+    color: #ff4d4d;
+}
+#btn1{
+    position: absolute;
+    top: 240px;
+    left: 350px;
+    z-index: 10;
+    padding: 10px 15px;
+    background: #F1B76D;
+    color: #373B56;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.input-box1 {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 15px; 
+}
+.input-box1:first-of-type {
+    margin-top: 75px;}
+
+
+    #btn2{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    z-index: 10;
+    padding: 10px 15px;
+    background: #F1B76D;
+    color: #373B56;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
